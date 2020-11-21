@@ -59,7 +59,7 @@ def TEMPLATE3(info):
         <center><p><a href="html{{title.index(t)+1}}.html" title="Go to tp{{title.index(t)+1}}" target="blank">{{t}}</a></p></center>
         {% endfor %}
 
-        <center><p><a href="SDVGSDGFSDDF" title="Go to codigo" target="blank">Visit github</a></p></center>
+        <center><p><a href="https://github.com/Joaosantos-99/PUBELE2020" title="Go to codigo" target="blank">Visit github</a></p></center>
 
         {% for t in hashtags %}
 
