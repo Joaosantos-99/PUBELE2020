@@ -1,0 +1,16 @@
+<!-- DTD report ... -->
+<!ELEMENT reportbook (report|title|date|team|description|subtitle|substitles|subtitle0|hastags|tags)* >
+<!ELEMENT report (title|date|team|description|subtitle|substitles|subtitle0|hashtags|tags)* >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT tags (hashtags)* >
+<!ELEMENT subtitle0 (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT number (#PCDATA) >
+<!ELEMENT hashtags (#PCDATA) >
+<!ELEMENT team (element)* >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT element (name|number)* >
+<!ELEMENT substitles (sub|tags)* >
+<!ELEMENT sub (subtitle|description)* >
