@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <reportbook>
 	<report>
+		<title>Descrição do trabalho prático</title>
+			<subtitle0>Descrição do trbalho prático </subtitle0>
+	    <date>26/11/20</date>
+	    <team>
+	        <element>
+	            <name>André Pereira</name>
+	            <number>83774</number>
+	            
+	        </element>
+	        <element>
+	            <name>João Ricardo Eira</name>
+	            <number>83553</number>
+	            
+	        </element>
+	        <element>
+	            <name>João Santos </name>
+	            <number>83928 </number>
+	        </element>
+	    </team>
+
+	    <substitles>
+	    	<sub>
+				<subtitle>Introdução</subtitle>
+				    <description>O intuito deste trabalho é o desenvolvimento de um ficheiro HTML com base no conteúdo de um ficheiro XML. Neste ficheiro XML está presente o conteúdo de três relatórios, com estruturas semelhantes, tendo sido desenvolvidos processos/funções que permitissem a realização do trabalho.</description>
+			</sub>
+			<sub>
+				<subtitle>Desenvolvimento</subtitle>
+					<description>
+						<ol>
+							<li>Criou-se um ficheiro xml com todo o corpo dos relatórios pretendidos;</li>
+							<li>Realizou-se na linha de comandos a operação xmllint para verificar se o ficheiro XML era válido;</li>
+							<li>Criou-se um ficheiro dtd de maneira a validar as tags do xml com a seguinte linha de código ' xmllint -dtdvalid report.dtd xml1.xml';</li>
+							<li>Iniciou-se código python capaz de passar todo o conteudo do ficheiro XML para HTML;</li>
+							<li>Geraram-se inicialmente duas funções com a estrutura pretendida para os relatórios e para a criação da página de índice;</li>
+							<li>Implementaram-se funções capazes de extrair a informação do XML;</li>
+							<li>Na função main aplicam-se as funções criadas anteriormente, por forma a preencher o template;</li>
+							<li>Após a conclusão de todas as funções correu-se o programa na linha de comandos através da operação 'python3 html2.py';</li>
+							<li>Observou-se os resultados pretendidos, e apenas se alterou o design do ficheiro HTML;</li>
+							<li>De maneira a conseguir correr os ficheiros o que aconselhamos é que faça o download de todos os ficheiros em formato 'png', 'xml' e 'py'. Em seguida deverá abrir na linha de comandos a pasta onde guardou estes ficheiros e depois realizar a operação 'python3 html2.py'. Deste modo, os ficheiros html serão gerados na pasta onde tem os restantes ficheiros que já tinha transferido;</li>
+							<li>Para abrir apenas terá de clicar nos mesmos e assim irá abrir um separador no browser com o mesmo. Deve abrir o ficheiro com nome 'index.html'  uma vez que esse redireciona para os restanteste ficheiros;</li>
+						</ol>
+					</description>
+			</sub>
+			<tags>	
+				<hashtags>#relatório</hashtags>
+			
+			</tags>
+		</substitles>
+	</report>
+
+	<report>
 	    <title>Internet Introduction and Satellite Communications</title>
 	    	<subtitle0>Internet Introduction and Satellite Communications </subtitle0>
 	    <date>15/10/20</date>
@@ -39,17 +90,17 @@
 			</sub>
 			<sub>
 				<subtitle> GORIZONT 29</subtitle>
-					<description>  O satélite GORIZONT 29, lançado em 1993, foi um satélite de comunicação geoestacionário russo da série Gorizont. Serviu para fornecer telefone, telégrafo e serviços de comunicações via fax, além de retransmissão de TV e transmissões de rádio, bem como para apoio a comunicações internacionais. <center><img src="gor.png" alt="GORIZONT 29"></img></center></description>
+					<description> O satélite GORIZONT 29, lançado em 1993, foi um satélite de comunicação geoestacionário russo da série Gorizont. Serviu para fornecer telefone, telégrafo e serviços de comunicações via fax, além de retransmissão de TV e transmissões de rádio, bem como para apoio a comunicações internacionais. <center><img src="gor.png" alt="GORIZONT 29"></img></center></description>
 					
 			</sub>
 			<sub>
 				<subtitle>ORBCOMM FM15</subtitle>
-					<description> Este satélite foi lançado em 1998 nos USA pela Orbcomm e faz parte de um conjunto de satélites pertencentes aos satélites de comunicação de baixa órbita.<center><img src="orb.png" alt="ORBCOMM"></img></center> </description>
+					<description> Este satélite foi lançado em 1998 nos USA pela Orbcomm e faz parte de um conjunto de satélites pertencentes aos satélites de comunicação de baixa órbita.<center><img src="orb.png" alt="ORBCOMM"></img></center></description>
 			</sub>
 			<sub>
 				<subtitle>Bibliografia</subtitle>
 					<description>[1] - Site oficial da Internet Engineering Task Force. Disponível em <a href="https://www.ietf.org/" target="blank"> ietf</a>. Consultado em 13/10/20;
-					[2] - Site oficial da Internet Engineering Task Force. “RFC Index”. Disponível em <a href="https://tools.ietf.org/rfc/" target="blank">tools.ietf</a> . Consultado em 13/10/20; </description>
+					<p>[2] - Site oficial da Internet Engineering Task Force. “RFC Index”. Disponível em <a href="https://tools.ietf.org/rfc/" target="blank">tools.ietf</a> . Consultado em 13/10/20; </description>
 
 			</sub>
 			<tags>	
@@ -139,9 +190,9 @@
 	    <substitles>
     		<sub>
 				<subtitle> Introdução </subtitle>
-					<description> A transmissão de informação entre dispositivos é um dos processos mais importantes no mundo atual. Não só permite um acesso fácil e rápido a qualquer tipo de informação por parte dos utilizadores, como também permite comunicar com qualquer parte do mundo a qualquer momento.
-					Data transmission é o processo de propagação de dados analógicos e digitais entre dispositivos eletrónicos e servidores. Esta transmissão pode ser realizada através de três métodos: point-to-point, point-to-multipoint e multipoint-to-multipoint[3].
-					No primeiro método a comunicação é feita diretamente entre dois pontos fixos, como por exemplo uma chamada telefónica. Por outro lado, na point-to-multipoint, o sinal provém apenas de uma fonte para vários destinatários, como na internet wireless. Uma só fonte oferece vários caminhos para diversos recetores distantes. Este último método é o mais utilizado para quando existem bastantes recetores. Por fim, na multipoint-to-multipoint connection há a ligação direta entre três ou mais dispositivos, que partilham informação entre si [3]. </description>
+					<description> <p>A transmissão de informação entre dispositivos é um dos processos mais importantes no mundo atual. Não só permite um acesso fácil e rápido a qualquer tipo de informação por parte dos utilizadores, como também permite comunicar com qualquer parte do mundo a qualquer momento.
+					Data transmission é o processo de propagação de dados analógicos e digitais entre dispositivos eletrónicos e servidores. Esta transmissão pode ser realizada através de três métodos: point-to-point, point-to-multipoint e multipoint-to-multipoint[3].</p>
+					<p>No primeiro método a comunicação é feita diretamente entre dois pontos fixos, como por exemplo uma chamada telefónica. Por outro lado, na point-to-multipoint, o sinal provém apenas de uma fonte para vários destinatários, como na internet wireless. Uma só fonte oferece vários caminhos para diversos recetores distantes. Este último método é o mais utilizado para quando existem bastantes recetores. Por fim, na multipoint-to-multipoint connection há a ligação direta entre três ou mais dispositivos, que partilham informação entre si [3]. </p></description>
 			</sub>
 			<sub>
 
