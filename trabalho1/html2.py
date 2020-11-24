@@ -59,13 +59,14 @@ def TEMPLATE3(info):
         <center><p><a href="html{{title.index(t)+1}}.html" title="Go to tp{{title.index(t)+1}}" target="blank">{{t}}</a></p></center>
         {% endfor %}
 
-        <center><p><a href="https://github.com/Joaosantos-99/PUBELE2020/tree/main/trabalho1" title="Go to codigo" target="blank">Visit github</a></p></center>
 
+        <h5>Relacionados:</h5>
         {% for t in hashtags %}
 
-        <center><a href="html{{hashtags.index(t)+1}}.html" title="Go to tp{{hashtags.index(t)+1}}" target="blank">{{t}}</a></center>
+        <a href="html{{hashtags.index(t)+1}}.html" title="Go to tp{{hashtags.index(t)+1}}" target="blank">{{t}}</a>
         {% endfor %}
-
+        <br><br>
+        <p align="Right"><a href="https://github.com/Joaosantos-99/PUBELE2020/tree/main/trabalho1" title="Go to codigo" target="blank">Visit github</a></p>
 
 
         

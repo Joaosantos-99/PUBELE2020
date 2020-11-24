@@ -2,7 +2,7 @@
 <reportbook>
 	<report>
 		<title>Descrição do trabalho prático</title>
-			<subtitle0>Descrição do trbalho prático </subtitle0>
+			<subtitle0>Descrição do trabalho prático </subtitle0>
 	    <date>26/11/20</date>
 	    <team>
 	        <element>
@@ -100,11 +100,11 @@
 			<sub>
 				<subtitle>Bibliografia</subtitle>
 					<description>[1] - Site oficial da Internet Engineering Task Force. Disponível em <a href="https://www.ietf.org/" target="blank"> ietf</a>. Consultado em 13/10/20;
-					<p>[2] - Site oficial da Internet Engineering Task Force. “RFC Index”. Disponível em <a href="https://tools.ietf.org/rfc/" target="blank">tools.ietf</a> . Consultado em 13/10/20; </description>
+					<p>[2] - Site oficial da Internet Engineering Task Force. “RFC Index”. Disponível em <a href="https://tools.ietf.org/rfc/" target="blank">tools.ietf</a> . Consultado em 13/10/20. </description>
 
 			</sub>
 			<tags>	
-				<hashtags>#satelite</hashtags>
+				<hashtags>#satélite</hashtags>
 			
 			</tags>
 		</substitles>
@@ -155,9 +155,9 @@
 			<sub>
 
 				<subtitle> Bibliografia </subtitle>
-					<description> [7] – Site ExtraHop. Disponível em <a href="https://www.extrahop.com/resources/protocols/icmp/" target="blank">extrahop</a>. Consultado em 21/10/20
-					[8] - Site fasthosts. Disponível em <a href="https://help.fasthosts.co.uk/app/answers/detail/a_id/1550/~/traceroute-explained" target="blank">fasthosts</a> . Consultado em 22/10/20.
-					[9] - Site neustar. Disponível em <a href="https://www.ultratools.com/tools/traceRoute" target="blank">ultratools</a>.Consultado em 20/10/20. </description>
+					<description> [7] – Site ExtraHop. Disponível em <a href="https://www.extrahop.com/resources/protocols/icmp/" target="blank">extrahop</a>. Consultado em 21/10/20;
+					[8] - Site fasthosts. Disponível em <a href="https://help.fasthosts.co.uk/app/answers/detail/a_id/1550/~/traceroute-explained" target="blank">fasthosts</a> . Consultado em 22/10/20;
+					[9] - Site neustar. Disponível em <a href="https://www.ultratools.com/tools/traceRoute" target="blank">ultratools</a>.Consultado em 20/10/20.</description>
 			</sub>
 			<tags>
 				<hashtags>#traceroute</hashtags>
