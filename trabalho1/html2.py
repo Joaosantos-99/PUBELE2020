@@ -26,7 +26,7 @@ def TEMPLATE2(info):
         </ul>
         <ul>
             {% for el in substitles %}
-                <h2>{{el['subtitle']}}</h2>
+                <h3>{{el['subtitle']}}</h3>
                 <p>{{el['description']}}</p>
                 {% endfor %}
         </ul>
