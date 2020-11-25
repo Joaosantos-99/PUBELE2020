@@ -95,20 +95,6 @@ def extraireport():
     lista_reports= soup.find_all("report") #retorna uma lista que os divide na palavra "report"
     return lista_reports
 
-def extract2():
-
-    with open("xml1.xml") as f:
-        report=f.read() 
-
-    info = []
-
-    for tag,miolo in findall(r'<(.*?)>(.*?)</\1>',report):
-        info.append((tag,miolo))
-
-
-    print(info)
-
-
 def refile(filename): # devolve texto
 
     with open(filename) as f:
