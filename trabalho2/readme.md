@@ -1,6 +1,6 @@
 Introdução
 
-  O intuito deste trabalho é o desenvolvimento de uma pequena API através do framework do Python, Flask. Na API temos algumas funcionalidades como a criação de um relatório, a leitura dos relatórios já criados e também apagar um relatório. De referir que também se tentou desenvolver um método de procura de palavras existentes em relatórios. Porém, não se concluiu essa funcionalidade.
+  O objetivo deste trabalho é o desenvolvimento de uma pequena API através do framework do Python, Flask. Na API temos algumas funcionalidades como a criação de um relatório, a leitura dos relatórios já criados e também apagar um relatório. De referir que também se tentou desenvolver um método de procura de palavras existentes em relatórios. Porém, não se concluiu essa funcionalidade.
 
 Desenvolvimento
 
