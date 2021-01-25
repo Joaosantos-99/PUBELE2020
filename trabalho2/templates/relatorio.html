@@ -1,0 +1,19 @@
+{% extends 'base1.html' %}
+{% block head%}
+	<title>Relatório</title>
+{% endblock %}
+{% block body%}
+	<center><h1>{{relatorio.title}}</h1></center><br>
+	<center><h2>{{relatorio.subtitle}}</h2></center><br>
+	<center><h8>{{relatorio.data}}</h8></center><br>
+	<center><h7>{{relatorio.autores | safe}}</h7></center><br> 
+	<h3>{{relatorio.subtitulo0}}</h3>
+	<p>{{relatorio.descricao0 | safe}}</p>
+	
+
+	<form action="/relatorios/{{relatorio.id}}" method="post">
+		<input type="submit" name="lamp" style="color:red" value="Apagar">
+	</form>
+
+
+{% endblock %}

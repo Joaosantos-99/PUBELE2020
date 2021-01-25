@@ -1,0 +1,33 @@
+{% extends 'base1.html' %}
+{% block head%}
+    <title>Relatórios</title>
+{% endblock %}
+{% block body%}
+    <center>
+    <br>
+    <h3>Adicionar relatório</h3>
+    <form action="/relatorios" method='post'>
+    <label>Título</label><br>
+    <input type="text" name="title" size="50"><br><br>
+    <label>Subtítulo</label><br>
+    <input type="text" name="subtitle" size="50"><br><br>
+    <label>Data</label><br>
+    <input type="text" name="data" size="30"><br><br>
+    <label>Autores</label><br>
+    <textarea rows="3" name="autores" cols="50"></textarea><br><br>
+    <label>Subtítulo</label><br>
+    <input type="text" name="subtitulo0" size="50"><br><br>
+    <label>Corpo do Relatório</label><br>
+    <textarea rows="10" name="descricao0" cols="50"></textarea><br><br>
+    <br><br>
+    <br>
+    <input type="submit" name="lamp" style="color:green" value="Enviar"><br><br>
+</form>
+
+    <h1>Relatórios</h1>
+    {% for r in relatorios %} 
+    <li><a href="/relatorios/{{r.id}}">{{r.title}}</a></li><br> <!-- aqui temos de ter as linhas com o nome dos relatórios-->
+    {% endfor %}
+    <hr>
+</center>
+{% endblock %}

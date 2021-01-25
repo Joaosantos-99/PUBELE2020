@@ -1,0 +1,26 @@
+{% extends 'base1.html' %}
+
+
+
+{% block head %}
+<title>Main Page</title>
+{% endblock %}
+
+
+{% block body %}
+<br><br>
+<center><img src="{{url_for('static', filename='UM.png')}}" align="middle" /></center>
+<br><br>
+<center><h1>Trabalho prático 2</h1></center>
+<br><br>
+<center><a class="btn btn-info" name="lamp" style="color:black" href="/relatorios">Relatórios</a><br><br></center>
+<br><br>
+<center><a class="btn btn-info" name="lamp" style="color:black" href="/autores">Autores</a><br><br></center>
+<br><br>
+<center><a class="btn btn-info" name="lamp" style="color:black" href="/procura">Procura</a><br><br></center>
+<br><br>
+<p align="Center"><a href="https://github.com/Joaosantos-99/PUBELE2020/tree/main" title="Go to github" target="blank">Visit github</a></p>
+{% endblock %}
+
+
+

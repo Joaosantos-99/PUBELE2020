@@ -1,0 +1,19 @@
+{% extends 'base1.html' %}
+{% block head%}
+    <title>Procura</title>
+{% endblock %}
+{% block body%}
+
+<center><br><br>
+	<h2>Procura de relatório/palavra</h2>
+	<br><br>
+<form action="/procura" method="get">
+<input type="procurar" placeholder="Procurar" name="procura">
+<button type="submit">Procurar</button>
+</form> 
+<br><br>
+ {% for r in relatorios %} 
+    <li><a href="/relatorios/{{r.id}}">{{r.title}}</a></li><br> <!-- aqui temos de ter as linhas com o nome dos relatórios-->
+{% endfor %}
+
+{% endblock %}
