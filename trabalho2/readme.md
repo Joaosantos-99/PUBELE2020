@@ -13,3 +13,9 @@ Desenvolvimento
     De referir que todos os templates criados na pasta templates estão diretamente ligados ao código em Python.
     A pasta static está presente de forma a ser possível a inserção de imagens. Neste caso foram utilizadas na  main page e na página estática de autores.
     
+  Por forma a correr a aplicação devem realizar-se estes comandos no terminal na diretria onde se encontra as pastas do trabalho:
+  1)export FLASK_ENV=development
+  2)export FLASK_APP=novaapp.py
+  3)flask run
+  
+  O primeiro comando apenas é inserido por forma a permitir alterações na API, ou drjs rm codigo templates entre outros, sem que se tenha novamente de correr novamente tudo. 
